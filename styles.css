@@ -1,0 +1,67 @@
+/**********************/
+    /*GLOBAL STYLES*/
+/**********************/
+h1, p, a {
+        text-decoration: none;
+}
+
+h1{
+        font-family: "Allerta Stencil", sans-serif;
+        color: #5F8171;
+        text-align: center;
+}
+
+p, a {
+        font-family: 'Inter', sans-serif;
+        color: black;
+}
+
+/**********************/
+ /*INDEX AND REGISTER/
+/**********************/
+.new-user-link:hover{
+        font-weight: bold;
+}
+
+.login-container {
+        background-color: #F0F0F0;
+        min-width: 300px;
+        max-width: 600px;
+        margin-top: 30px;
+        padding: 20px 20px 35px 20px;
+        border-radius: 2%;
+
+}
+
+
+.login-body {
+        background-color: #5F8171;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+fieldset {
+        border-style: none;
+}
+
+input {
+        border-color: #5F8171;
+}
+
+.login-button {
+        background-color: #5F8171;
+        color: white;
+        border: none;
+        padding: 5px 15px 5px 15px;
+        box-shadow: black;
+}
+/**********************/
+        /*FEED*/
+/**********************/
+
+
+/**********************/
+        /*POST*/
+/**********************/
