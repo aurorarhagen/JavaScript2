@@ -1,1 +1,1 @@
-# js2
+# JavaScript 2
