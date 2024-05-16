@@ -78,18 +78,22 @@ input {
 
 .feed-container {
         max-width: 400px;
-        
-       
 }
 
-#post-content p 
         
-
 textarea {
         font-family: 'Inter', sans-serif;
         color: black;
 }
+ #post-content {
+        width: 400px;
+        height: 100px;
+ }
 
+ .send-post-btn {
+        width: 100px;
+        height: 40px;
+ } 
 
 /**********************/
         /*POST*/

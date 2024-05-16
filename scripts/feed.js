@@ -1,5 +1,5 @@
 import { POSTS_API_URL } from "../scripts/constants.mjs";
-import { doFetch } from "./scripts/fetch.mjs";
+import { doFetch } from "./fetch.mjs";
 
 const feedDisplayContainer = document.querySelector(
     ".feed-container"
@@ -18,7 +18,7 @@ function retrieveFeedHtml(feed) {
     const feedContainer = document.createElement("div");
 
     const postContent = document.createElement("p")
-    postContent.textContent = post.content;
+    postContent.textContent = feed.content;
 
     feedContainer.append(postContent);
 
