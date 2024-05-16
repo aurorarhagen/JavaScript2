@@ -11,10 +11,17 @@ h1{
         text-align: center;
 }
 
+h2 {
+        font-family: "Allerta Stencil", sans-serif;
+        color: #F0F0F0;
+}
+
 p, a {
         font-family: 'Inter', sans-serif;
         color: black;
 }
+
+
 
 /**********************/
  /*INDEX AND REGISTER/
@@ -60,6 +67,28 @@ input {
 /**********************/
         /*FEED*/
 /**********************/
+
+.feed-body {
+         background-color: #5F8171;
+}
+
+.feed-header {
+        color: #F0F0F0;
+}
+
+.feed-container {
+        max-width: 400px;
+        
+       
+}
+
+#post-content p 
+        
+
+textarea {
+        font-family: 'Inter', sans-serif;
+        color: black;
+}
 
 
 /**********************/
