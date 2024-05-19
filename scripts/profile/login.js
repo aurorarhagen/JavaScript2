@@ -10,11 +10,11 @@ form.addEventListener("submit", (event) => {
 });
 
 async function loginUser() {
-  // Get the elements
+  // Get information from input fields
   const emailField = document.querySelector("#email");
   const passwordField = document.querySelector("#password");
 
-  // Create an object with the values
+  // Create an object with the information from the form
   const userValues = {
     email: emailField.value,
     password: passwordField.value,
