@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed | LinkUp</title>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+        </style>
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+</style>
+<script type="module" src="./scripts/feed.js" ></script>
+</head>
+<body class="feed-body">
+    <header>
+        <h1 class="feed-header">LinkUp</h1>
+    </header>
+    <div class="new-post"></div>
+    <fieldset>
+        <p><label for="post-content"></label></p>
+                <textarea id="post-content" name="post-content" required placeholder="Create new post..." ></textarea>
+                <br>
+                <button class="send-post-btn"><p>Send post</p></button>
+            </fieldset>
+    
+    <h2>Your feed</h2>
+    <div class="feed-container">
+        <p>Filter by:</p>
+        <p><label for="search">Search:</label></p>
+            <input type="text" name="search" id="search">
+</div>
+</body>
+</html>
